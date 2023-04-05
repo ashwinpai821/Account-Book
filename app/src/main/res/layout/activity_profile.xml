@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="203dp"
+        android:text="@string/name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="211dp"
+        android:layout_height="48dp"
+        android:layout_alignStart="@+id/t1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="26dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="254dp"
+        android:text="@string/age"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:ignore="RelativeOverlap" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="217dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginEnd="23dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="314dp"
+        android:text="@string/store_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:ignore="RelativeOverlap" />
+
+    <EditText
+        android:id="@+id/e3"
+        android:layout_width="221dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="303dp"
+        android:layout_marginEnd="19dp"
+        android:autofillHints="no"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/e4"
+        android:layout_width="234dp"
+        android:layout_height="112dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="156dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck"
+        android:autofillHints="NO" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="217dp"
+        android:text="@string/store_address"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="312dp"
+        android:text="@string/type_of_store"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:ignore="RelativeOverlap" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="228dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginBottom="304dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/i2"
+        android:layout_width="204dp"
+        android:layout_height="141dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="37dp"
+        app:srcCompat="@drawable/store"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/t22"
+        android:layout_width="149dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="242dp"
+        android:layout_marginBottom="552dp"
+        android:text="@string/profile_picture"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/t11"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_alignTop="@+id/i2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="198dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="552dp"
+        android:text="@string/store_picture"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="-19dp"
+        android:layout_marginEnd="209dp"
+        android:layout_marginBottom="587dp"
+        app:srcCompat="@drawable/ic_profile"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>

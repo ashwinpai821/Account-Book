@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AccountBook1</string>
+    <string name="m1">Money to Receive</string>
+    <string name="m2">Money to Give</string>
+    <string name="stats">Statistics</string>
+    <string name="blog">Blog Page</string>
+    <string name="name">NAME :</string>
+    <string name="age">AGE :</string>
+    <string name="store_name">STORE NAME :</string>
+    <string name="store_address">STORE ADDRESS :</string>
+    <string name="type_of_store">TYPE OF STORE:</string>
+    <string name="todo">TODO</string>
+    <string name="profile_picture">PROFILE PICTURE</string>
+    <string name="store_picture">STORE PICTURE</string>
+</resources>

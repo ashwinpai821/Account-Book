@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/shape2"
+    android:orientation="horizontal"
+    android:elevation="5dp"
+    android:padding="10dp"
+    >
+
+
+    <TextView
+        android:id="@+id/tab_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="0dp"
+        android:text="Customer Name - "
+        android:textColor="@color/black"
+        android:textSize="26dp"
+         />
+
+    <TextView
+        android:id="@+id/tab_dead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/black"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="36dp"
+        android:textSize="20dp"
+        android:text="Deadline - " />
+
+    <TextView
+        android:id="@+id/tab_amount"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="66dp"
+        android:textSize="20dp"
+        android:text="Amount - " />
+
+</RelativeLayout>
